@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Jua&display=swap');
+
+:root{
+    --cor1: #7BD3EA;
+    --cor2: #F38181;
+    --cor3: #FCE38A;
+    --fonteprincipal: "Comfortaa", sans-serif;
+    --fontesecundaria: "Jua", sans-serif;
+}
+
+/*Mudando a barra de scroll*/
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--cor2) #fff;
+}
+
+/* Chrome, Edge, e Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--cor2);
+  border-radius: 20px;
+  border: 3px solid #fff;
+}
+
+/*************Index**************/
+
+/*Body*/
+
+html{
+    scroll-behavior: smooth;
+}
+
+/*Navbar*/
+
+#logonavbar{
+    height: 4rem;
+    width: 12rem;
+}
+
+/*Main*/
+
+/*section2*/
+
+#divbichos{
+ display: flex;
+ columns: 40ch;
+ max-height: 100%;
+ overflow-x: auto;
+}
+
+/*************Cadastro e Login**************/
+
+#bodypattern{
+    background-image: url(../images/ilustracao/pattern.png);
+    width: 100vw;
+    height: 100vh;
+}

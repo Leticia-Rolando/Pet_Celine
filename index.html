@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Celine</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css" />
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="shortcut icon" href="images/logo/svgviewer-output.ico" type="image/x-icon">
+</head>
+
+<body class="bg-base-100">
+
+    <nav class="navbar shadow-lg w-full fixed top-0 right-0 left-0 z-2 bg-base-100">
+        <div class="navbar-start">
+            <button role="button" class="btn btn-ghost btn-circle" data-drawer-target="drawer-navigation"
+                data-drawer-show="drawer-navigation" aria-controls="drawer-navigation">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000"
+                    class="size-5 lg:size-7">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+            </button>
+        </div>
+        <div class="navbar-center">
+            <a href="index.html"><img id="logonavbar" src="images/logo/logopetceline.png" alt="logo da empresa"></a>
+        </div>
+        <div class="navbar-end">
+            <button role="button" class="btn btn-ghost btn-circle">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000"
+                    class="size-5 lg:size-7">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                </svg>
+            </button>
+            <button role="button" class="btn btn-ghost btn-circle">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000"
+                    class="size-4 lg:size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                </svg>
+            </button>
+            <button role="button" class="btn btn-ghost btn-circle">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000"
+                    class="size-5 lg:size-7">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                </svg>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+        <section class="flex justify-center">
+            <header id="default-carousel" class="relative w-7xl z-1 mt-30" data-carousel="slide">
+                <!-- Carousel wrapper -->
+                <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+                    <!-- Item 1 -->
+                    <div class="hidden duration-1500 ease-in-out" data-carousel-item>
+                        <img src="images/slides1/slidespetcilne.gif"
+                            class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="slide">
+                    </div>
+                    <!-- Item 2 -->
+                    <div class="hidden duration-1500 ease-in-out" data-carousel-item>
+                        <img src="images/slides1/slidespetcilne2.gif"
+                            class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="slide">
+                    </div>
+                    <!-- Item 3 -->
+                    <div class="hidden duration-1500 ease-in-out" data-carousel-item>
+                        <img src="images/slides1/slidespetcilne3.gif"
+                            class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="slide">
+                    </div>
+                    <!-- Item 4 -->
+                    <div class="hidden duration-1500 ease-in-out" data-carousel-item>
+                        <img src="images/slides1/slidespetcilne4.gif"
+                            class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="slide">
+                    </div>
+                    <!-- Item 5 -->
+                    <div class="hidden duration-1500 ease-in-out" data-carousel-item>
+                        <img src="images/slides1/slidespetcilne5.gif"
+                            class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="slide">
+                    </div>
+                </div>
+                <!-- Slider indicators -->
+                <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
+                    <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1"
+                        data-carousel-slide-to="0"></button>
+                    <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2"
+                        data-carousel-slide-to="1"></button>
+                    <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3"
+                        data-carousel-slide-to="2"></button>
+                    <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4"
+                        data-carousel-slide-to="3"></button>
+                    <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5"
+                        data-carousel-slide-to="4"></button>
+                </div>
+                <!-- Slider controls -->
+                <button type="button"
+                    class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                    data-carousel-prev>
+                    <span
+                        class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                        <svg class="w-4 h-4 text-white dark:text-gray-100 rtl:rotate-180" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M5 1 1 5l4 4" />
+                        </svg>
+                        <span class="sr-only">Previous</span>
+                    </span>
+                </button>
+                <button type="button"
+                    class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                    data-carousel-next>
+                    <span
+                        class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                        <svg class="w-4 h-4 text-white dark:text-gray-100 rtl:rotate-180" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="m1 9 4-4-4-4" />
+                        </svg>
+                        <span class="sr-only">Next</span>
+                    </span>
+                </button>
+            </header>
+        </section>
+
+        <section>
+            <div id="divbichos" class="pe-3 ps-4 py-7 gap-4 lg:justify-center">
+                <!-- javascript -->
+            </div>
+        </section>
+
+        <section id="section3">
+            <div class="mx-auto max-w-7xl py-4">
+                <div
+                    class="divider lg:divider-start text-2xl text-black text-center pb-8 font-(family-name:--fonteprincipal) font-medium">
+                    Nossos Serviços</div>
+                <div id="divservicos" class="flex flex-col gap-4 md:flex-row max-lg:px-2">
+                    <!-- javascript -->
+                </div>
+            </div>
+        </section>
+
+        <section id="section4">
+            <div class="mx-auto max-w-7xl py-5">
+                <div
+                    class="divider lg:divider-start text-2xl text-black text-center pb-8 font-(family-name:--fonteprincipal) font-medium">
+                    Recomendações para você</div>
+                <div id="divrecomendados" class="flex gap-4 pb-3 px-2 overflow-x-auto max-mb:px-4">
+                    <!-- javascript -->
+                </div>
+            </div>
+        </section>
+
+        <section id="section5">
+            <div class="mx-auto max-w-7xl py-4">
+                <div
+                    class="divider lg:divider-start text-2xl text-black text-center pb-8 font-(family-name:--fonteprincipal) font-medium">
+                    Lojas</div>
+                <div class="flex justify-center">
+                    <div id="controls-carousel" class="relative w-7xl z-1" data-carousel="static">
+                        <!-- Carousel wrapper -->
+                        <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+                            <!-- Item 1 -->
+                            <div class="hidden duration-1000 ease-in-out" data-carousel-item="active">
+                                <img src="images/lojas/loja1.webp"
+                                    class="absolute block w-full lg:h-120 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                                    alt="loja">
+                            </div>
+                            <!-- Item 2 -->
+                            <div class="hidden duration-1000 ease-in-out" data-carousel-item>
+                                <img src="images/lojas/loja2.webp"
+                                    class="absolute block w-full lg:h-120 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                                    alt="loja">
+                            </div>
+                            <!-- Item 3 -->
+                            <div class="hidden duration-1000 ease-in-out" data-carousel-item>
+                                <img src="images/lojas/loja3.webp"
+                                    class="absolute block w-full lg:h-120 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                                    alt="loja">
+                            </div>
+                        </div>
+                        <!-- Slider controls -->
+                        <button type="button"
+                            class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                            data-carousel-prev>
+                            <span
+                                class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                                <svg class="w-4 h-4 text-white dark:text-gray-100 rtl:rotate-180" aria-hidden="true"
+                                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" d="M5 1 1 5l4 4" />
+                                </svg>
+                                <span class="sr-only">Previous</span>
+                            </span>
+                        </button>
+                        <button type="button"
+                            class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                            data-carousel-next>
+                            <span
+                                class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                                <svg class="w-4 h-4 text-white dark:text-gray-100 rtl:rotate-180" aria-hidden="true"
+                                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" d="m1 9 4-4-4-4" />
+                                </svg>
+                                <span class="sr-only">Next</span>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="section6">
+            <div class="mx-auto max-w-7xl py-4">
+                <div
+                    class="divider lg:divider-start text-2xl text-black text-center pb-8 font-(family-name:--fonteprincipal) font-medium">
+                    Produtos Exclusivos</div>
+                <div id="divprodutosexclusivos" class="flex gap-4 pb-3 px-2 overflow-x-auto max-mb:px-4">
+                    <!-- javascript -->
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer class="bg-base-100">
+        <div class="mx-auto max-w-7xl w-full max-w-screen-xl">
+            <div class="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
+                <div>
+                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase font-(family-name:--fonteprincipal)">
+                        Empresa</h2>
+                    <ul class="text-gray-500 font-medium">
+                        <li class="mb-4">
+                            <a href="./pages/quem_somos.html" class=" hover:underline">Sobre nós</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Carreiras</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase font-(family-name:--fonteprincipal)">
+                        Políticas</h2>
+                    <ul class="text-gray-500 font-medium">
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Privacidade</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Pagamentos e Reembolsos</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Termos &amp; Condições</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase font-(family-name:--fonteprincipal)">
+                        Central de Ajuda</h2>
+                    <ul class="text-gray-500 font-medium">
+                        <li class="mb-4">
+                            <a href="https://www.whatsapp.com/?lang=pt_BR" class="hover:underline">WhatsApp</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="https://workspace.google.com/intl/pt-BR/gmail/" class="hover:underline">E-mail</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase font-(family-name:--fonteprincipal)">
+                        Download</h2>
+                    <ul class="text-gray-500  font-medium">
+                        <li class="mb-4">
+                            <a href="https://www.apple.com/br/app-store/" class="hover:underline">iOS</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="https://play.google.com/store/apps?hl=pt_BR" class="hover:underline">Android</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="px-4 py-6 bg-base-100 md:flex md:items-center md:justify-between">
+                <span class="text-sm text-gray-500 sm:text-center">&copy; 2025 Todos os direitos reservados. Feito por
+                    <span
+                        class="text-sm sm:text-center font-(family-name:--fonteprincipal) font-bold text-(--cor2)">Letícia
+                        Frulani</span>
+                </span>
+                <div class="flex mt-4 sm:justify-center md:mt-0 space-x-5 rtl:space-x-reverse items-center">
+                    <a href="https://www.facebook.com/?locale=pt_BR">
+                        <svg class="fill-gray-400 hover:fill-gray-900" xmlns="http://www.w3.org/2000/svg" width="22"
+                            height="22" viewBox="0 0 256 256">
+                            <path
+                                d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm8,191.63V152h24a8,8,0,0,0,0-16H136V112a16,16,0,0,1,16-16h16a8,8,0,0,0,0-16H152a32,32,0,0,0-32,32v24H96a8,8,0,0,0,0,16h24v63.63a88,88,0,1,1,16,0Z">
+                            </path>
+                        </svg>
+                        <span class="sr-only">Facebook</span>
+                    </a>
+                    <a href="https://www.instagram.com/">
+                        <svg class="fill-gray-400 hover:fill-gray-900" xmlns="http://www.w3.org/2000/svg" width="22"
+                            height="22" viewBox="0 0 256 256">
+                            <path
+                                d="M128,80a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32,32,0,0,1,128,160ZM176,24H80A56.06,56.06,0,0,0,24,80v96a56.06,56.06,0,0,0,56,56h96a56.06,56.06,0,0,0,56-56V80A56.06,56.06,0,0,0,176,24Zm40,152a40,40,0,0,1-40,40H80a40,40,0,0,1-40-40V80A40,40,0,0,1,80,40h96a40,40,0,0,1,40,40ZM192,76a12,12,0,1,1-12-12A12,12,0,0,1,192,76Z">
+                            </path>
+                        </svg>
+                        <span class="sr-only">Instagram</span>
+                    </a>
+                    <a href="https://x.com/">
+                        <svg class="fill-gray-400 hover:fill-gray-900" xmlns="http://www.w3.org/2000/svg" width="22"
+                            height="22" viewBox="0 0 256 256">
+                            <path
+                                d="M214.75,211.71l-62.6-98.38,61.77-67.95a8,8,0,0,0-11.84-10.76L143.24,99.34,102.75,35.71A8,8,0,0,0,96,32H48a8,8,0,0,0-6.75,12.3l62.6,98.37-61.77,68a8,8,0,1,0,11.84,10.76l58.84-64.72,40.49,63.63A8,8,0,0,0,160,224h48a8,8,0,0,0,6.75-12.29ZM164.39,208,62.57,48h29L193.43,208Z">
+                            </path>
+                        </svg>
+                        <span class="sr-only">Twitter</span>
+                    </a>
+                    <a href="https://www.youtube.com/">
+                        <svg class="fill-gray-400 hover:fill-gray-900" xmlns="http://www.w3.org/2000/svg" width="22"
+                            height="22" viewBox="0 0 256 256">
+                            <path
+                                d="M164.44,121.34l-48-32A8,8,0,0,0,104,96v64a8,8,0,0,0,12.44,6.66l48-32a8,8,0,0,0,0-13.32ZM120,145.05V111l25.58,17ZM234.33,69.52a24,24,0,0,0-14.49-16.4C185.56,39.88,131,40,128,40s-57.56-.12-91.84,13.12a24,24,0,0,0-14.49,16.4C19.08,79.5,16,97.74,16,128s3.08,48.5,5.67,58.48a24,24,0,0,0,14.49,16.41C69,215.56,120.4,216,127.34,216h1.32c6.94,0,58.37-.44,91.18-13.11a24,24,0,0,0,14.49-16.41c2.59-10,5.67-28.22,5.67-58.48S236.92,79.5,234.33,69.52Zm-15.49,113a8,8,0,0,1-4.77,5.49c-31.65,12.22-85.48,12-86,12H128c-.54,0-54.33.2-86-12a8,8,0,0,1-4.77-5.49C34.8,173.39,32,156.57,32,128s2.8-45.39,5.16-54.47A8,8,0,0,1,41.93,68c30.52-11.79,81.66-12,85.85-12h.27c.54,0,54.38-.18,86,12a8,8,0,0,1,4.77,5.49C221.2,82.61,224,99.43,224,128S221.2,173.39,218.84,182.47Z">
+                            </path>
+                        </svg>
+                        <span class="sr-only">YouTube</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!--Offcavas-->
+
+    <div id="drawer-navigation"
+        class="fixed top-0 left-0 z-40 h-screen p-4 overflow-y-auto transition-transform -translate-x-full bg-white w-64"
+        tabindex="-1" aria-labelledby="drawer-navigation-label">
+        <h5 id="drawer-navigation-label" class=" text-gray-500 uppercase font-medium">Menu
+        </h5>
+        <button type="button" data-drawer-hide="drawer-navigation" aria-controls="drawer-navigation"
+            class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-black rounded-lg text-sm w-8 h-8 absolute top-2.5 end-2.5 inline-flex items-center justify-center">
+            <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6" />
+            </svg>
+            <span class="sr-only">Close menu</span>
+        </button>
+        <div class="py-4 overflow-y-auto">
+            <ul class="space-y-2 font-bold font-(family-name:--fonteprincipal)">
+                <li>
+                    <a href="#section3" class="flex items-center p-2 rounded-lg group hover:bg-gray-100">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 transition duration-75" fill="#F38181"
+                            viewBox="0 0 256 256">
+                            <path
+                                d="M230.33,141.06a24.34,24.34,0,0,0-18.61-4.77C230.5,117.33,240,98.48,240,80c0-26.47-21.29-48-47.46-48A47.58,47.58,0,0,0,156,48.75,47.58,47.58,0,0,0,119.46,32C93.29,32,72,53.53,72,80c0,11,3.24,21.69,10.06,33a31.87,31.87,0,0,0-14.75,8.4L44.69,144H16A16,16,0,0,0,0,160v40a16,16,0,0,0,16,16H120a7.93,7.93,0,0,0,1.94-.24l64-16a6.94,6.94,0,0,0,1.19-.4L226,182.82l.44-.2a24.6,24.6,0,0,0,3.93-41.56ZM119.46,48A31.15,31.15,0,0,1,148.6,67a8,8,0,0,0,14.8,0,31.15,31.15,0,0,1,29.14-19C209.59,48,224,62.65,224,80c0,19.51-15.79,41.58-45.66,63.9l-11.09,2.55A28,28,0,0,0,140,112H100.68C92.05,100.36,88,90.12,88,80,88,62.65,102.41,48,119.46,48ZM16,160H40v40H16Zm203.43,8.21-38,16.18L119,200H56V155.31l22.63-22.62A15.86,15.86,0,0,1,89.94,128H140a12,12,0,0,1,0,24H112a8,8,0,0,0,0,16h32a8.32,8.32,0,0,0,1.79-.2l67-15.41.31-.08a8.6,8.6,0,0,1,6.3,15.9Z">
+                            </path>
+                        </svg>
+                        <span class="ms-3 text-lg text-black">Serviços</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#section4" class="flex items-center p-2 rounded-lg group hover:bg-gray-100">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 transition duration-75" fill="#F38181"
+                            viewBox="0 0 256 256">
+                            <path
+                                d="M216,96A88,88,0,1,0,72,163.83V240a8,8,0,0,0,11.58,7.16L128,225l44.43,22.21A8.07,8.07,0,0,0,176,248a8,8,0,0,0,8-8V163.83A87.85,87.85,0,0,0,216,96ZM56,96a72,72,0,1,1,72,72A72.08,72.08,0,0,1,56,96ZM168,227.06l-36.43-18.21a8,8,0,0,0-7.16,0L88,227.06V174.37a87.89,87.89,0,0,0,80,0ZM128,152A56,56,0,1,0,72,96,56.06,56.06,0,0,0,128,152Zm0-96A40,40,0,1,1,88,96,40,40,0,0,1,128,56Z">
+                            </path>
+                        </svg>
+                        <span class="ms-3 text-lg text-black">Recomendados</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#section5" class="flex items-center p-2 rounded-lg group hover:bg-gray-100">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 transition duration-75" fill="#F38181"
+                            viewBox="0 0 256 256">
+                            <path
+                                d="M232,96a7.89,7.89,0,0,0-.3-2.2L217.35,43.6A16.07,16.07,0,0,0,202,32H54A16.07,16.07,0,0,0,38.65,43.6L24.31,93.8A7.89,7.89,0,0,0,24,96h0v16a40,40,0,0,0,16,32v72a8,8,0,0,0,8,8H208a8,8,0,0,0,8-8V144a40,40,0,0,0,16-32V96ZM54,48H202l11.42,40H42.61Zm50,56h48v8a24,24,0,0,1-48,0Zm-16,0v8a24,24,0,0,1-35.12,21.26,7.88,7.88,0,0,0-1.82-1.06A24,24,0,0,1,40,112v-8ZM200,208H56V151.2a40.57,40.57,0,0,0,8,.8,40,40,0,0,0,32-16,40,40,0,0,0,64,0,40,40,0,0,0,32,16,40.57,40.57,0,0,0,8-.8Zm4.93-75.8a8.08,8.08,0,0,0-1.8,1.05A24,24,0,0,1,168,112v-8h48v8A24,24,0,0,1,204.93,132.2Z">
+                            </path>
+                        </svg>
+                        <span class="ms-3 text-lg text-black">Lojas</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#section6" class="flex items-center p-2 rounded-lg group hover:bg-gray-100">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 transition duration-75" fill="#F38181"
+                            viewBox="0 0 256 256">
+                            <path
+                                d="M248,80a28,28,0,1,0-51.12,15.77l-26.79,33L146,73.4a28,28,0,1,0-36.06,0L85.91,128.74l-26.79-33a28,28,0,1,0-26.6,12L47,194.63A16,16,0,0,0,62.78,208H193.22A16,16,0,0,0,209,194.63l14.47-86.85A28,28,0,0,0,248,80ZM128,40a12,12,0,1,1-12,12A12,12,0,0,1,128,40ZM24,80A12,12,0,1,1,36,92,12,12,0,0,1,24,80ZM193.22,192H62.78L48.86,108.52,81.79,149A8,8,0,0,0,88,152a7.83,7.83,0,0,0,1.08-.07,8,8,0,0,0,6.26-4.74l29.3-67.4a27,27,0,0,0,6.72,0l29.3,67.4a8,8,0,0,0,6.26,4.74A7.83,7.83,0,0,0,168,152a8,8,0,0,0,6.21-3l32.93-40.52ZM220,92a12,12,0,1,1,12-12A12,12,0,0,1,220,92Z">
+                            </path>
+                        </svg>
+                        <span class="ms-3 text-lg text-black">Produtos Exclusivos</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./pages/cadastro.html" class="flex items-center p-2 rounded-lg group hover:bg-gray-100">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 transition duration-75" fill="#F38181"
+                            viewBox="0 0 256 256">
+                            <path
+                                d="M168,56a8,8,0,0,1,8-8h16V32a8,8,0,0,1,16,0V48h16a8,8,0,0,1,0,16H208V80a8,8,0,0,1-16,0V64H176A8,8,0,0,1,168,56Zm62.56,54.68a103.92,103.92,0,1,1-85.24-85.24,8,8,0,0,1-2.64,15.78A88.07,88.07,0,0,0,40,128a87.62,87.62,0,0,0,22.24,58.41A79.66,79.66,0,0,1,98.3,157.66a48,48,0,1,1,59.4,0,79.66,79.66,0,0,1,36.06,28.75A87.62,87.62,0,0,0,216,128a88.85,88.85,0,0,0-1.22-14.68,8,8,0,1,1,15.78-2.64ZM128,152a32,32,0,1,0-32-32A32,32,0,0,0,128,152Zm0,64a87.57,87.57,0,0,0,53.92-18.5,64,64,0,0,0-107.84,0A87.57,87.57,0,0,0,128,216Z">
+                            </path>
+                        </svg>
+                        <span class="ms-3 text-lg text-black">Cadastro</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./pages/login.html" class="flex items-center p-2 rounded-lg group hover:bg-gray-100">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 transition duration-75" fill="#F38181"
+                            viewBox="0 0 256 256">
+                            <path
+                                d="M221.35,104.11a8,8,0,0,0-6.57,9.21A88.85,88.85,0,0,1,216,128a87.62,87.62,0,0,1-22.24,58.41,79.66,79.66,0,0,0-36.06-28.75,48,48,0,1,0-59.4,0,79.66,79.66,0,0,0-36.06,28.75A88,88,0,0,1,128,40a88.76,88.76,0,0,1,14.68,1.22,8,8,0,0,0,2.64-15.78,103.92,103.92,0,1,0,85.24,85.24A8,8,0,0,0,221.35,104.11ZM96,120a32,32,0,1,1,32,32A32,32,0,0,1,96,120ZM74.08,197.5a64,64,0,0,1,107.84,0,87.83,87.83,0,0,1-107.84,0ZM237.66,45.66l-32,32a8,8,0,0,1-11.32,0l-16-16a8,8,0,0,1,11.32-11.32L200,60.69l26.34-26.35a8,8,0,0,1,11.32,11.32Z">
+                            </path>
+                        </svg>
+                        <span class="ms-3 text-lg text-black">Login</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./pages/faq.html" class="flex items-center p-2 rounded-lg group hover:bg-gray-100">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 transition duration-75" fill="#F38181"
+                            viewBox="0 0 256 256">
+                            <path d="M225.86,102.82c-3.77-3.94-7.67-8-9.14-11.57-1.36-3.27-1.44-8.69-1.52-13.94-.15-9.76-.31-20.82-8-28.51s-18.75-7.85-28.51-8c-5.25-.08-10.67-.16-13.94-1.52-3.56-1.47-7.63-5.37-11.57-9.14C146.28,23.51,138.44,16,128,16s-18.27,7.51-25.18,14.14c-3.94,3.77-8,7.67-11.57,9.14C88,40.64,82.56,40.72,77.31,40.8c-9.76.15-20.82.31-28.51,8S41,67.55,40.8,77.31c-.08,5.25-.16,10.67-1.52,13.94-1.47,3.56-5.37,7.63-9.14,11.57C23.51,109.72,16,117.56,16,128s7.51,18.27,14.14,25.18c3.77,3.94,7.67,8,9.14,11.57,1.36,3.27,1.44,8.69,1.52,13.94.15,9.76.31,20.82,8,28.51s18.75,7.85,28.51,8c5.25.08,10.67.16,13.94,1.52,3.56,1.47,7.63,5.37,11.57,9.14C109.72,232.49,117.56,240,128,240s18.27-7.51,25.18-14.14c3.94-3.77,8-7.67,11.57-9.14,3.27-1.36,8.69-1.44,13.94-1.52,9.76-.15,20.82-.31,28.51-8s7.85-18.75,8-28.51c.08-5.25.16-10.67,1.52-13.94,1.47-3.56,5.37-7.63,9.14-11.57C232.49,146.28,240,138.44,240,128S232.49,109.73,225.86,102.82Zm-11.55,39.29c-4.79,5-9.75,10.17-12.38,16.52-2.52,6.1-2.63,13.07-2.73,19.82-.1,7-.21,14.33-3.32,17.43s-10.39,3.22-17.43,3.32c-6.75.1-13.72.21-19.82,2.73-6.35,2.63-11.52,7.59-16.52,12.38S132,224,128,224s-9.15-4.92-14.11-9.69-10.17-9.75-16.52-12.38c-6.1-2.52-13.07-2.63-19.82-2.73-7-.1-14.33-.21-17.43-3.32s-3.22-10.39-3.32-17.43c-.1-6.75-.21-13.72-2.73-19.82-2.63-6.35-7.59-11.52-12.38-16.52S32,132,32,128s4.92-9.15,9.69-14.11,9.75-10.17,12.38-16.52c2.52-6.1,2.63-13.07,2.73-19.82.1-7,.21-14.33,3.32-17.43S70.51,56.9,77.55,56.8c6.75-.1,13.72-.21,19.82-2.73,6.35-2.63,11.52-7.59,16.52-12.38S124,32,128,32s9.15,4.92,14.11,9.69,10.17,9.75,16.52,12.38c6.1,2.52,13.07,2.63,19.82,2.73,7,.1,14.33.21,17.43,3.32s3.22,10.39,3.32,17.43c.1,6.75.21,13.72,2.73,19.82,2.63,6.35,7.59,11.52,12.38,16.52S224,124,224,128,219.08,137.15,214.31,142.11ZM140,180a12,12,0,1,1-12-12A12,12,0,0,1,140,180Zm28-72c0,17.38-13.76,31.93-32,35.28V144a8,8,0,0,1-16,0v-8a8,8,0,0,1,8-8c13.23,0,24-9,24-20s-10.77-20-24-20-24,9-24,20v4a8,8,0,0,1-16,0v-4c0-19.85,17.94-36,40-36S168,88.15,168,108Z"></path>
+                        </svg>
+                        <span class="ms-3 text-lg text-black">FAQ</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+    <script type="text/javascript" src="node_modules/accessibility/dist/main.bundle.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+        var labels = {
+            resetTitle: 'Redefinir configurações',
+            closeTitle: 'Fechar menu',
+            menuTitle: 'Opções de Acessibilidade',
+            increaseText: 'Aumentar tamanho do texto',
+            decreaseText: 'Diminuir tamanho do texto',
+            increaseTextSpacing: 'Aumentar espaçamento do texto',
+            decreaseTextSpacing: 'Diminuir espaçamento do texto',
+            increaseLineHeight: 'Aumentar altura da linha',
+            decreaseLineHeight: 'Diminuir altura da linha',
+            invertColors: 'Inverter cores',
+            grayHues: 'Tons de cinza',
+            underlineLinks: 'Sublinhar links',
+            bigCursor: 'Cursor grande',
+            readingGuide: 'Guia de leitura',
+            textToSpeech: 'Converter texto em fala',
+            speechToText: 'Converter fala em texto',
+            disableAnimations: 'Desativar animações',
+            hotkeyPrefix: 'Atalho: ',
+        };
+        var options = { labels: labels };
+        options.textToSpeechLang = 'pt-BR';
+        options.speechToTextLang = 'pt-BR';
+        window.addEventListener('load', function () { new Accessibility(options); }, false);
+    </script>
+</body>
+
+</html>
