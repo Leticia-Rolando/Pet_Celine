@@ -28,7 +28,7 @@ Todo projeto foi elaborado por mim, desde o branding da marca até a web page.
 
 ## :link: Acessar o Projeto
 
-Acesse aqui a <font color="red">[página]()</font>
+Acesse aqui a <font color="red">aa</font>
 
 ## :id: Autora
 **Letícia Frulani**
