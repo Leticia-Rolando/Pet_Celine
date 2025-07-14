@@ -17,7 +17,9 @@ Todo projeto foi elaborado por mim, desde o branding da marca até a web page.
 
 ## :heavy_check_mark: Funcionalidades
 > :heavy_check_mark: Funcionalidade 1: Botão de acessibilidade (funções como: diminuir espaçamento de textos, inverter cores, aumentor o cursor e etc.).
+
 > :heavy_check_mark: Funcinalidade 2: Formulário de login.
+
 > :heavy_check_mark: Funcinalidade 3: Formulário de cadastro.
 
 ## :computer: Demonstração
