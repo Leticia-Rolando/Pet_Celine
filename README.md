@@ -24,7 +24,7 @@ Todo projeto foi elaborado por mim, desde o branding da marca até a web page.
 
 ## :computer: Demonstração
 
-<img alt="Mockup" src="">
+<img alt="Mockup" src="images/mockup/mockup1.jpg">
 
 ## :hammer: Tecnologias Utilizadas
 
