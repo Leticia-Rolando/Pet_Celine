@@ -4,6 +4,7 @@
 
 ## :ballot_box_with_check: Tópicos
 - [Descrição do Projeto](#file_folder-descrição-do-projeto);
+- [Funcionalidades](#heavy_check_mark-funcionalidades)
 - [Demonstração](#computer-demonstração);
 - [Tecnologias Utilizadas](#hammer-tecnologias-utilizadas);
 - [Acessar o Projeto](#link-acessar-o-projeto);
@@ -14,9 +15,12 @@ O projeto consiste em uma Landing Page Responsiva de uma empresa de cashback no 
 
 Todo projeto foi elaborado por mim, desde o branding da marca até a web page.
 
+## :heavy_check_mark: Funcionalidades
+
+
 ## :computer: Demonstração
 
-<img alt="Mockup" src="./images/mockup/tela.jpg">
+<img alt="Mockup" src="">
 
 ## :hammer: Tecnologias Utilizadas
 
@@ -24,7 +28,7 @@ Todo projeto foi elaborado por mim, desde o branding da marca até a web page.
 
 ## :link: Acessar o Projeto
 
-Acesse aqui a [página](https://onionbucks.netlify.app/)
+Acesse aqui a <font color="red">[página]()</font>
 
 ## :id: Autora
 **Letícia Frulani**
