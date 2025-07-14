@@ -11,9 +11,7 @@
 - [Autora](#id-autora).
 
 ## :file_folder: Descrição do Projeto
-O projeto consiste em uma Landing Page Responsiva de uma empresa de cashback no ramo alimentício, mais precisamente de frutas e verduras; o site atrai o consumidor a baixar o aplicativo (fictício) da empresa, para que ele possa usar o programa oferecido pela mesma.
-
-Todo projeto foi elaborado por mim, desde o branding da marca até a web page.
+Uma página E-commerce de um pet shop chamado Pet Celine (fictício) - feita utilizando o framework **tailwind** e duas bibliotecas de componentes: **Flowbite** e **DaisyUI**. Para melhorar a acessibilidade do site, usei um pacote **npm** chamado accessibility, trazendo para tela um botão característico que possui várias opções de acessibilidade; fazendo com que o e-commerce fique acessível para todos.
 
 ## :heavy_check_mark: Funcionalidades
 > :heavy_check_mark: Funcionalidade 1: Botão de acessibilidade (funções como: diminuir espaçamento de textos, inverter cores, aumentor o cursor e etc.).
