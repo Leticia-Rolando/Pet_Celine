@@ -31,7 +31,7 @@ Uma página E-commerce **responsiva** de um pet shop chamado Pet Celine (fictíc
 
 ## :link: Acessar o Projeto
 
-Acesse aqui a [página]()
+Acesse aqui a :point_right: [página]() :point_left: 
 
 ## :id: Autora
 **Letícia Frulani**
