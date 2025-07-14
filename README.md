@@ -1,6 +1,6 @@
 # Pet Celine
 
-<img alt="Static Badge" src="https://img.shields.io/badge/Feito_em-Junho-purple?style=for-the-badge"> <img alt="Status do Projeto" src="https://img.shields.io/badge/Status-Finalizado-green?style=for-the-badge">
+<img alt="Static Badge" src="https://img.shields.io/badge/Feito_em-Julho-purple?style=for-the-badge"> <img alt="Status do Projeto" src="https://img.shields.io/badge/Status-Finalizado-green?style=for-the-badge">
 
 ## :ballot_box_with_check: Tópicos
 - [Descrição do Projeto](#file_folder-descrição-do-projeto);
