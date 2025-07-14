@@ -28,7 +28,7 @@ Todo projeto foi elaborado por mim, desde o branding da marca até a web page.
 
 ## :hammer: Tecnologias Utilizadas
 
-<img alt="Static Badge" src="https://img.shields.io/badge/HTML-red?style=for-the-badge&logo=html5&logoColor=%23fff"> <img alt="Static Badge" src="https://img.shields.io/badge/CSS-blue?style=for-the-badge&logo=css&logoColor=%23fff"> <img alt="Static Badge" src="https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript&logoColor=%23fff"> <img alt="Static Badge" src="https://img.shields.io/badge/Bootstrap-purple?style=for-the-badge&logo=bootstrap&logoColor=%23fff"> <img alt="Static Badge" src="https://img.shields.io/badge/Photopea-%2318A497?style=for-the-badge&logo=photopea&logoColor=%23fff"> <img alt="Static Badge" src="https://img.shields.io/badge/Netlify-%2300C7B7?style=for-the-badge&logo=netlify&logoColor=%23fff"> <img alt="Static Badge" src="https://img.shields.io/badge/GSAP-green?style=for-the-badge&logoColor=%23fff">
+<img alt="Static Badge" src="https://img.shields.io/badge/HTML-red?style=for-the-badge&logo=html5&logoColor=%23fff"> <img alt="Static Badge" src="https://img.shields.io/badge/CSS-blue?style=for-the-badge&logo=css&logoColor=%23fff"> <img alt="Static Badge" src="https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript&logoColor=%23fff">
 
 ## :link: Acessar o Projeto
 
