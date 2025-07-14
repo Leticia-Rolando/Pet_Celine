@@ -11,7 +11,7 @@
 - [Autora](#id-autora).
 
 ## :file_folder: Descrição do Projeto
-Uma página E-commerce de um pet shop chamado Pet Celine (fictício) - feita utilizando o framework **tailwind** e duas bibliotecas de componentes: **Flowbite** e **DaisyUI**. Para melhorar a acessibilidade do site, usei um pacote **npm** chamado accessibility, trazendo para tela um botão característico que possui várias opções de acessibilidade; fazendo com que o e-commerce fique acessível para todos.
+Uma página E-commerce **responsiva** de um pet shop chamado Pet Celine (fictício) - feita utilizando o framework **tailwind** e duas bibliotecas de componentes: **Flowbite** e **DaisyUI**. Para melhorar a acessibilidade do site, usei um pacote **npm** chamado accessibility, trazendo para tela um botão característico que possui várias opções de acessibilidade; fazendo com que o e-commerce fique acessível para todos.
 
 ## :heavy_check_mark: Funcionalidades
 > :heavy_check_mark: Funcionalidade 1: Botão de acessibilidade (funções como: diminuir espaçamento de textos, inverter cores, aumentor o cursor e etc.).
