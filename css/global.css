@@ -48,6 +48,15 @@ html{
 
 /*Main*/
 
+  .esconde-scroll::-webkit-scrollbar {
+    display: auto;
+}
+
+.esconde-scroll {
+  scrollbar-width: thin; /* Para Firefox */
+  -ms-overflow-style: none; /* Para Internet Explorer e Edge */
+}
+
 /*section2*/
 
 #divbichos{
@@ -63,4 +72,18 @@ html{
     background-image: url(../images/ilustracao/pattern.png);
     width: 100vw;
     height: 100vh;
+}
+
+/*******Esconder scroll depois de lg**********/
+
+@media screen and (max-width: 768px){
+
+  .esconde-scroll::-webkit-scrollbar {
+  display: none; /* Para navegadores WebKit */
+}
+
+.esconde-scroll {
+  scrollbar-width: none; /* Para Firefox */
+  -ms-overflow-style: none; /* Para Internet Explorer e Edge */
+}
 }
