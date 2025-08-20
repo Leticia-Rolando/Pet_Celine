@@ -7,6 +7,7 @@
 - [Funcionalidades](#heavy_check_mark-funcionalidades);
 - [Demonstração](#computer-demonstração);
 - [Tecnologias Utilizadas](#hammer-tecnologias-utilizadas);
+- [Desempenho](#chart_with_upwards_trend-desempenho);
 - [Acessar o Projeto](#link-acessar-o-projeto);
 - [Autora](#id-autora).
 
@@ -42,6 +43,15 @@ Uma página E-commerce **responsiva** de um pet shop chamado Pet Celine (fictíc
   <img src="https://cdn.simpleicons.org/nodedotjs/339933" height="40" alt="nodejs logo"  />
   <img width="12" />
   <img src="https://cdn.simpleicons.org/netlify/00C7B7" height="40" alt="netlify logo"  />
+</div>
+
+## :chart_with_upwards_trend: Desempenho
+
+O site passou por uma avaliação de desempenho na navegação, analisando **performance, acessibilidade, boas práticas e SEO**; a avaliação foi feita usando o recurso **Lighthouse** do Google Chrome. Do lado esquero está o resultado para modo **desktop** e do lado direito está para **mobile.**
+
+<div align="left">
+<img alt="Desempenho Desktop" src="./images/lighthouse/desempenhoDesktop.png" width="290">
+<img alt="Desempenho Desktop" src="./images/lighthouse/desempenhoMobile.png" width="280">
 </div>
 
 
