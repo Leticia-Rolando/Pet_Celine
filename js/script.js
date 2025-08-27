@@ -9,7 +9,7 @@ function acrescentardivbichos() {
     for (let i = 0; i < descricaodivbichos.length; i++) {
         divbichos.innerHTML += `
         <div class="flex flex-col text-center lg:hover:scale-105">
-                    <a href="#"><img src="images/ilustracao/bicho${i + 1}.webp" alt="${descricaodivbichos[i]}" class="rounded-full w-26 min-w-23"></a>
+                    <a href="#"><img src="images/ilustracao/bicho${i + 1}.webp" alt="${descricaodivbichos[i]}" class="rounded-full w-26 min-w-23" loading="lazy"></a>
                     <p class="text-black font-(family-name:--fonteprincipal) text-base pt-3">${descricaodivbichos[i]}</p>
         </div>
         `
@@ -40,7 +40,7 @@ function acrescentardivservicos() {
                             <p class="font-base">${descricaoservicos[i]}</p>
                         </div>
                         <figure>
-                            <img src="images/servicos/servico${i + 1}.webp"
+                            <img src="images/servicos/servico${i + 1}.webp" loading="lazy"
                                 alt="${titulosservicos[i]}"/>
                         </figure>
                     </div>
@@ -68,7 +68,7 @@ function acrescentarprodutos() {
         divrecomendados.innerHTML += `
              <div class="card realtive bg-base-100 shadow-md items-center max-w-76 lg:hover:scale-101">
                         <figure class="pt-4 h-66 w-56">
-                            <img src="images/produtos/produto${i + 1}.webp"
+                            <img src="images/produtos/produto${i + 1}.webp" loading="lazy"
                                 alt="${tituloprodutos[i]}"/>
                         </figure>
                         <div class="card-body">
@@ -116,7 +116,7 @@ function acrescentarprodutosexclusivos() {
         divprodutosexclusivos.innerHTML += `
              <div class="card realtive bg-base-100 shadow-md items-center max-w-76 lg:hover:scale-101">
                         <figure class="pt-4 h-66 w-56">
-                            <img src="images/exclusivos/exclusivo${i + 1}.webp"
+                            <img src="images/exclusivos/exclusivo${i + 1}.webp" loading="lazy"
                                 alt="${tituloexclusivo[i]}"/>
                         </figure>
                         <div class="card-body">
