@@ -7,7 +7,7 @@
 - [Funcionalidades](#heavy_check_mark-funcionalidades);
 - [Demonstração](#computer-demonstração);
 - [Tecnologias Utilizadas](#hammer-tecnologias-utilizadas);
-- [Otimizações](:chart_with_upwards_trend:-otimizações);
+- [Otimizações](:chart_with_upwards_trend-otimizações);
 - [Acessar o Projeto](#link-acessar-o-projeto);
 - [Autora](#id-autora).
 
