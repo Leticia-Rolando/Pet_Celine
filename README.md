@@ -50,7 +50,7 @@ Uma página E-commerce **responsiva** de um pet shop chamado Pet Celine (fictíc
 
 > :heavy_check_mark: **Lazy Loading:** Implementei carregamento preguiçoso **(lazy loading)** nas imagens para garantir que o conteúdo seja baixado apenas quando estiver visível na tela, melhorando o tempo de carregamento inicial.
 
-> :heavy_check_mark: **Minificação de Código:** Os códigos CSS e JavaScript foram **minificados** para remover espaços e comentários desnecessários, diminuindo o tamanho final dos arquivos.
+> :heavy_check_mark: **Minificação de Código:** O código CSS foi **minificado** para remover espaços e comentários desnecessários, diminuindo o tamanho final do arquivo.
 
 
 
