@@ -7,6 +7,7 @@
 - [Funcionalidades](#heavy_check_mark-funcionalidades);
 - [Demonstração](#computer-demonstração);
 - [Tecnologias Utilizadas](#hammer-tecnologias-utilizadas);
+- [Otimizações](:chart_with_upwards_trend:-otimizações);
 - [Acessar o Projeto](#link-acessar-o-projeto);
 - [Autora](#id-autora).
 
@@ -43,6 +44,14 @@ Uma página E-commerce **responsiva** de um pet shop chamado Pet Celine (fictíc
   <img width="12" />
   <img src="https://cdn.simpleicons.org/netlify/00C7B7" height="40" alt="netlify logo"  />
 </div>
+
+## :chart_with_upwards_trend: Otimizações
+> :heavy_check_mark: **Otimização de Imagens:** As imagens do projeto foram comprimidas no **TinyPng** e convertidas para o formato **WebP**, reduzindo o tamanho dos arquivos em mais de 70%.
+
+> :heavy_check_mark: **Lazy Loading:** Implementei carregamento preguiçoso **(lazy loading)** nas imagens para garantir que o conteúdo seja baixado apenas quando estiver visível na tela, melhorando o tempo de carregamento inicial.
+
+> :heavy_check_mark: **Minificação de Código:** Os códigos CSS e JavaScript foram **minificados** para remover espaços e comentários desnecessários, diminuindo o tamanho final dos arquivos.
+
 
 
 ## :link: Acessar o Projeto
