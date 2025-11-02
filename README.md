@@ -8,8 +8,7 @@
 - [Demonstração](#computer-demonstração);
 - [Tecnologias Utilizadas](#hammer-tecnologias-utilizadas);
 - [Otimizações](#chart_with_upwards_trend-otimizações);
-- [Acessar o Projeto](#link-acessar-o-projeto);
-- [Autora](#id-autora).
+- [Acessar o Projeto](#link-acessar-o-projeto).
 
 ## :file_folder: Descrição do Projeto
 Uma página E-commerce **responsiva** de um pet shop chamado Pet Celine (fictício) - feita utilizando o framework **tailwind** e duas bibliotecas de componentes: **Flowbite** e **DaisyUI**. Para melhorar a acessibilidade do site, usei um pacote **npm** chamado accessibility, trazendo para tela um botão característico que possui várias opções de acessibilidade; fazendo com que o e-commerce fique acessível para todos.
