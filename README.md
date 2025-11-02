@@ -58,5 +58,4 @@ Uma página E-commerce **responsiva** de um pet shop chamado Pet Celine (fictíc
 
 Acesse aqui a :point_right: [página](https://petceline.netlify.app/) :point_left: 
 
-## :id: Autora
-**Letícia Frulani**
+
