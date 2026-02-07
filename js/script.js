@@ -31,7 +31,7 @@ function acrescentardivservicos() {
 
     for (let i = 0; i < titulosservicos.length; i++) {
         divservicos.innerHTML += `
-            <div class="card bg-base-100 w-96 shadow-lg shadow-(color:--cor1) border-(--cor1) border-1 border-solid max-sm:max-w-xs max-sm:m-auto">
+            <div class="card bg-base-100 w-96 shadow-lg shadow-(color:--cor2) border-(--cor2) border-1 border-solid max-sm:max-w-xs max-sm:m-auto">
                         <div class="card-body">
                         <div class="flex items-center gap-1 pt-3">
                             <h2 class="card-title font-(family-name:--fonteprincipal) font-[700]">${titulosservicos[i]}</h2>
