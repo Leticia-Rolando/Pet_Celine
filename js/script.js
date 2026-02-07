@@ -25,26 +25,26 @@ const divservicos = document.getElementById("divservicos")
 
 const divservicosItens = [
     {   id: 1, 
-        titulo: 'Veterinário', 
-        descricao: 'Cuidamos do seu pet com os veterinários mais bem qualificados do país!',
+        titulo: "Veterinário", 
+        descricao: "Cuidamos do seu pet com os veterinários mais bem qualificados do país!",
         vetor: '<path d="M216,88H168V40a16,16,0,0,0-16-16H104A16,16,0,0,0,88,40V88H40a16,16,0,0,0-16,16v48a16,16,0,0,0,16,16H88v48a16,16,0,0,0,16,16h48a16,16,0,0,0,16-16V168h48a16,16,0,0,0,16-16V104A16,16,0,0,0,216,88Zm0,64H160a8,8,0,0,0-8,8v56H104V160a8,8,0,0,0-8-8H40V104H96a8,8,0,0,0,8-8V40h48V96a8,8,0,0,0,8,8h56Z"></path>'
     },
     {
         id: 2,
-        titulo: 'Banho e Tosa',
-        descricao: 'Com os produtos mais sofisticados, melhoramos a aparência do seu pet!',
+        titulo: "Banho e Tosa",
+        descricao: "Com os produtos mais sofisticados, melhoramos a aparência do seu pet!",
         vetor: '<path d="M240,96H208a8,8,0,0,0-8-8H136a8,8,0,0,0-8,8H64V52A12,12,0,0,1,76,40a12.44,12.44,0,0,1,12.16,9.59,8,8,0,0,0,15.68-3.18A28.32,28.32,0,0,0,76,24,28,28,0,0,0,48,52V96H16a8,8,0,0,0-8,8v40a56.06,56.06,0,0,0,56,56v16a8,8,0,0,0,16,0V200h96v16a8,8,0,0,0,16,0V200a56.06,56.06,0,0,0,56-56V104A8,8,0,0,0,240,96Zm-48,8v32H144V104Zm40,40a40,40,0,0,1-40,40H64a40,40,0,0,1-40-40V112H128v32a8,8,0,0,0,8,8h64a8,8,0,0,0,8-8V112h24Z"></path>'
     },
     {
         id: 3,
-        titulo: 'Adoção',
-        descricao: 'Ao invés de comprar, por que não adotar um novo pet?',
+        titulo: "Adoção",
+        descricao: "Ao invés de comprar, por que não adotar um novo pet?",
         vetor: '<path d="M178,40c-20.65,0-38.73,8.88-50,23.89C116.73,48.88,98.65,40,78,40a62.07,62.07,0,0,0-62,62c0,70,103.79,126.66,108.21,129a8,8,0,0,0,7.58,0C136.21,228.66,240,172,240,102A62.07,62.07,0,0,0,178,40ZM128,214.8C109.74,204.16,32,155.69,32,102A46.06,46.06,0,0,1,78,56c19.45,0,35.78,10.36,42.6,27a8,8,0,0,0,14.8,0c6.82-16.67,23.15-27,42.6-27a46.06,46.06,0,0,1,46,46C224,155.61,146.24,204.15,128,214.8Z"></path>'
     },
     {
         id: 4,
-        titulo: 'Adestramento',
-        descricao: 'Com nossos adestradores, seu pet estará em boas mãos e aprenderá muito mais rápido a se comportar!',
+        titulo: "Adestramento",
+        descricao: "Com nossos adestradores, seu pet estará em boas mãos e aprenderá muito mais rápido a se comportar!",
         vetor: '<path d="M201.57,54.46a104,104,0,1,0,0,147.08A103.4,103.4,0,0,0,201.57,54.46ZM65.75,65.77a87.63,87.63,0,0,1,53.66-25.31A87.31,87.31,0,0,1,94,94.06a87.42,87.42,0,0,1-53.62,25.35A87.58,87.58,0,0,1,65.75,65.77ZM40.33,135.48a103.29,103.29,0,0,0,65-30.11,103.24,103.24,0,0,0,30.13-65,87.78,87.78,0,0,1,80.18,80.14,104,104,0,0,0-95.16,95.1,87.78,87.78,0,0,1-80.18-80.14Zm149.92,54.75a87.69,87.69,0,0,1-53.66,25.31,88,88,0,0,1,79-78.95A87.58,87.58,0,0,1,190.25,190.23Z"></path>'
     }
 ]
@@ -78,34 +78,97 @@ acrescentardivservicos()
 //DivRecomendados
 
 const divrecomendados = document.getElementById('divrecomendados')
-const tituloprodutos = ["Ração Seca True para Cães Adultos Raças Médias e Grandes", "Ração Premier Pet Formula Frango Cães Adultos Raças Médias", "Ração Seca Quatree Life Salmão e Arroz Gatos Castrados", "Ração Nutrócia Canários", "Ração Megazoo Extrusada Ouriço Hedgehogs", "Alimento Alcon Garden Koi Colours para Carpas", "Ração Úmida GranPlus Sachê Gourmet Frango", "Ração Megazoo Critical Care para Carnívoros"]
-const pesoprodutos = ["10,1kg", "20kg", "10,1kg", "5kg", "700g", "4kg", "85g", "200g"]
-const precoprodutos = ["R$284,90", "R$305,90", "R$204,90", "R$315,90", "R$149,90", "R$429,90", "R$3,90", "R$63,90"]
-const categoriaprodutos1 = ["Cachorros", "Cachorros", "Gatos", "Pássaros", "Roedores", "Peixes", "Gatos", "Répteis"]
-const categoriaprodutos2 = ["Ração", "Ração", "Ração", "Ração", "Ração", "Ração", "Ração", "Ração"]
+
+const divrecomendadosItens = [
+    {
+        id: 1,
+        titulo: "Ração Seca True para Cães Adultos Raças Médias e Grandes",
+        peso: "10,1kg",
+        preco: "R$284,90",
+        categoria1: "Cachorros",
+        categoria2: "Ração"
+
+    },
+    {
+        id: 2,
+        titulo: "Ração Premier Pet Formula Frango Cães Adultos Raças Médias",
+        peso: "20kg",
+        preco: "R$305,90",
+        categoria1: "Cachorros",
+        categoria2: "Ração"
+    },
+    {
+        id: 3,
+        titulo: "Ração Seca Quatree Life Salmão e Arroz Gatos Castrados",
+        peso: "10,1kg",
+        preco: "R$204,90",
+        categoria1: "Gatos",
+        categoria2: "Ração"
+    },
+    {
+        id: 4,
+        titulo: "Ração Nutrócia Canários",
+        peso: "5kg",
+        preco: "R$315,90",
+        categoria1: "Pássaros",
+        categoria2: "Ração"
+    },
+    {
+        id: 5,
+        titulo: "Ração Megazoo Extrusada Ouriço Hedgehogs",
+        peso: "700g",
+        preco: "R$149,90",
+        categoria1: "Roedores",
+        categoria2: "Ração"
+    },
+    {
+        id: 6,
+        titulo: "Alimento Alcon Garden Koi Colours para Carpas",
+        peso: "4kg",
+        preco: "R$429,90",
+        categoria1: "Peixes",
+        categoria2: "Ração"
+    },
+    {
+        id: 7,
+        titulo: "Ração Úmida GranPlus Sachê Gourmet Frango",
+        peso: "85g",
+        preco: "R$3,90",
+        categoria1: "Gatos",
+        categoria2: "Ração"
+    },
+    {
+        id: 8,
+        titulo: "Ração Megazoo Critical Care para Carnívoros",
+        peso: "200g",
+        preco: "R$63,90",
+        categoria1: "Répteis",
+        categoria2: "Ração"
+    }
+]
 
 function acrescentarprodutos() {
 
     divrecomendados.innerHTML = ''
 
-    for (let i = 0; i < tituloprodutos.length; i++) {
+    for (let i = 0; i < divrecomendadosItens.length; i++) {
         divrecomendados.innerHTML += `
              <div class="card realtive bg-base-100 shadow-md items-center max-w-76 lg:hover:scale-101">
                         <figure class="pt-4 h-66 w-56">
                             <img src="images/produtos/produto${i + 1}.webp" loading="lazy"
-                                alt="${tituloprodutos[i]}"/>
+                                alt="${divrecomendadosItens[i].titulo}"/>
                         </figure>
                         <div class="card-body">
                                 <h2 class="card-title text-black font-(family-name:--fonteprincipal) text-md font-bold">
-                                    ${tituloprodutos[i]}
+                                    ${divrecomendadosItens[i].titulo}
                                 </h2>
-                                <div class="badge badge-soft badge-error font-semibold mb-5">${pesoprodutos[i]}</div>
+                                <div class="badge badge-soft badge-error font-semibold mb-5">${divrecomendadosItens[i].peso}</div>
                             <div class="card-actions justify-between items-center">
                                 <span
-                                    class="text-3xl text-start font-(family-name:--fontesecundaria) text-(--cor2)">${precoprodutos[i]}</span>
+                                    class="text-3xl text-start font-(family-name:--fontesecundaria) text-(--cor2)">${divrecomendadosItens[i].preco}</span>
                                 <div class="mb-10">
-                                    <div class="badge badge-outline badge-warning text-xs">${categoriaprodutos1[i]}</div>
-                                    <div class="badge badge-outline badge-warning text-xs">${categoriaprodutos2[i]}</div>
+                                    <div class="badge badge-outline badge-warning text-xs">${divrecomendadosItens[i].categoria1}</div>
+                                    <div class="badge badge-outline badge-warning text-xs">${divrecomendadosItens[i].categoria2}</div>
                                 </div>
                                 <div class="pb-2 flex absolute bottom-0">
                                 <button role="button" class="btn bg-(--cor2) p-4 rounded-lg w-46 hover:bg-red-400" aria-label="Botão que adiciona produto ao Carrinho"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fff" class="size-8">
