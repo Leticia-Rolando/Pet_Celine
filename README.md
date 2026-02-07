@@ -45,7 +45,7 @@ Uma página E-commerce **responsiva** de um pet shop chamado Pet Celine (fictíc
 </div>
 
 ## :chart_with_upwards_trend: Otimizações
-> :heavy_check_mark: **Otimização de Imagens:** As imagens do projeto foram comprimidas no **TinyPng** e convertidas para o formato **WebP**, reduzindo o tamanho dos arquivos em mais de 70%.
+> :heavy_check_mark: **Otimização de Imagens:** As imagens do projeto foram comprimidas no TinyPng e convertidas para o formato **WebP**, reduzindo o tamanho dos arquivos em mais de **70%** e aumentando a velocidade de carregamento do site em mais de **20%**.
 
 > :heavy_check_mark: **Lazy Loading:** Implementei carregamento preguiçoso **(lazy loading)** nas imagens para garantir que o conteúdo seja baixado apenas quando estiver visível na tela, melhorando o tempo de carregamento inicial.
 
