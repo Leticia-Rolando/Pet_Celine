@@ -189,34 +189,80 @@ acrescentarprodutos()
 //DivProdutosExclusivos
 
 const divprodutosexclusivos = document.getElementById('divprodutosexclusivos')
-const tituloexclusivo = ["Ração Úmida True Mixer Carne, Batata Doce e Ervilha para Cães", "Ração Liva Super Premium para Cães Filhotes de Raças Médias", "Ração Seca Suprema Sabor Carne para Cães Adultos", "Kit Ração Nutrilus Pro+ Frango & Carne para Cães Adultos", "Biscoito Nutrilus para Cães Adultos Porte Médio e Grande", "Poytara Jabuti Saco"]
-const pesoexclusivo = ["320g", "10,1kg", "20kg", "20kg", "1kg", "800g"]
-const precoexclusivo = ["R$19,90", "R$169,90", "R$174,90", "R$215,90", "R$39,90", "R$120,90"]
-const categoriaexclusivo1 = ["Cachorros", "Cachorros", "Cachorros", "Cachorros", "Cachorros", "Répteis"]
-const categoriaexclusivo2 = ["Ração", "Ração", "Ração", "Ração", "Biscoito", "Ração"]
+
+const divprodutosexclusivosItens = [
+    {
+        id: 1,
+        titulo: "Ração Úmida True Mixer Carne, Batata Doce e Ervilha para Cães",
+        peso: "320g",
+        preco: "R$19,90",
+        categoria1: "Cachorros",
+        categoria2: "Ração"
+    },
+    {
+        id: 2,
+        titulo: "Ração Liva Super Premium para Cães Filhotes de Raças Médias",
+        peso: "10,1kg",
+        preco: "R$169,90",
+        categoria1: "Cachorros",
+        categoria2: "Ração"
+    },
+    {
+        id: 3,
+        titulo: "Ração Seca Suprema Sabor Carne para Cães Adultos",
+        peso: "20kg",
+        preco: "R$174,90",
+        categoria1: "Cachorros",
+        categoria2: "Ração"
+    },
+    {
+        id: 4,
+        titulo: "Kit Ração Nutrilus Pro+ Frango & Carne para Cães Adultos",
+        peso: "20kg",
+        preco: "R$215,90",
+        categoria1: "Cachorros",
+        categoria2: "Ração"
+    },
+    {
+        id: 5,
+        titulo: "Biscoito Nutrilus para Cães Adultos Porte Médio e Grande",
+        peso: "1kg",
+        preco: "R$39,90",
+        categoria1: "Cachorros",
+        categoria2: "Biscoito"
+    },
+    {
+        id: 6,
+        titulo: "Poytara Jabuti Saco",
+        peso: "800g",
+        preco: "R$120,90",
+        categoria1: "Répteis",
+        categoria2: "Ração"
+    }
+]
 
 function acrescentarprodutosexclusivos() {
 
     divprodutosexclusivos.innerHTML = ''
 
-    for (let i = 0; i < tituloexclusivo.length; i++) {
+    for (let i = 0; i < divprodutosexclusivosItens.length; i++) {
         divprodutosexclusivos.innerHTML += `
              <div class="card realtive bg-base-100 shadow-md items-center max-w-76 lg:hover:scale-101">
                         <figure class="pt-4 h-66 w-56">
                             <img src="images/exclusivos/exclusivo${i + 1}.webp" loading="lazy"
-                                alt="${tituloexclusivo[i]}"/>
+                                alt="${divprodutosexclusivosItens[i].titulo}"/>
                         </figure>
                         <div class="card-body">
                                 <h2 class="card-title text-black font-(family-name:--fonteprincipal) text-md font-bold">
-                                    ${tituloexclusivo[i]}
+                                    ${divprodutosexclusivosItens[i].titulo}
                                 </h2>
-                                <div class="badge badge-soft badge-error font-semibold mb-5">${pesoexclusivo[i]}</div>
+                                <div class="badge badge-soft badge-error font-semibold mb-5">${divprodutosexclusivosItens[i].peso}</div>
                             <div class="card-actions justify-between items-center">
                                 <span
-                                    class="text-3xl text-start font-(family-name:--fontesecundaria) text-(--cor2)">${precoexclusivo[i]}</span>
+                                    class="text-3xl text-start font-(family-name:--fontesecundaria) text-(--cor2)">${divprodutosexclusivosItens[i].preco}</span>
                                 <div class="mb-10">
-                                    <div class="badge badge-outline badge-warning text-xs">${categoriaexclusivo1[i]}</div>
-                                    <div class="badge badge-outline badge-warning text-xs">${categoriaexclusivo2[i]}</div>
+                                    <div class="badge badge-outline badge-warning text-xs">${divprodutosexclusivosItens[i].categoria1}</div>
+                                    <div class="badge badge-outline badge-warning text-xs">${divprodutosexclusivosItens[i].categoria2}</div>
                                 </div>
                                 <div class="pb-2 flex absolute bottom-0">
                                 <button role="button" class="btn bg-(--cor2) p-4 rounded-lg w-46 hover:bg-red-400"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fff" class="size-8">
