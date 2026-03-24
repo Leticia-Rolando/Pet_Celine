@@ -43,7 +43,6 @@ Uma página E-commerce **responsiva** de um pet shop chamado Pet Celine (fictíc
   <img width="12" />
   <img src="https://cdn.simpleicons.org/nodedotjs/339933" height="40" alt="nodejs logo"  />
   <img width="12" />
-  <img src="https://cdn.simpleicons.org/netlify/00C7B7" height="40" alt="netlify logo"  />
 </div>
 
 ## :chart_with_upwards_trend: Otimizações
